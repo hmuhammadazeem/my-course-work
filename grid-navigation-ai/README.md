@@ -1,2 +1,2 @@
 # grid-navigation-ai
-# Currently, refactoring the code to make it readable and reusable.
+# Implemented different informed/uninformed searching to algorithms to search for a goal in a grid 
