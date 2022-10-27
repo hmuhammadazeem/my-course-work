@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/donorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/name"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/donorBlood"
+        android:layout_below="@id/donorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/blood_group" />
+
+    <EditText
+        android:id="@+id/donorContact"
+        android:layout_below="@id/donorBlood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/contact_number" />
+
+    <EditText
+        android:layout_below="@id/donorContact"
+        android:id="@+id/donorAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/address"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:layout_below="@id/donorAddress"
+        android:id="@+id/donorCNIC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/cnic"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:layout_below="@id/donorCNIC"
+        android:id="@+id/donorGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/gender"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/registerDonorBtn"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/donorGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

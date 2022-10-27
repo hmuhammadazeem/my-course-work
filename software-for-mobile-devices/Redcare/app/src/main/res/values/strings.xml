@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Redcare</string>
+    <string name="title_activity_reception_menu">Reception Menu</string>
+    <string name="title_home">Register Donor</string>
+    <string name="title_dashboard">Register Blood</string>
+    <string name="title_notifications">Blood Requests</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="submit">Submit</string>
+    <string name="name">Name</string>
+    <string name="cnic">CNIC</string>
+    <string name="gender">Gender</string>
+    <string name="address">Address</string>
+</resources>

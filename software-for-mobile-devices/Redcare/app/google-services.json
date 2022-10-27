@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "194187602120",
+    "firebase_url": "https://muhammad-azeem.firebaseio.com",
+    "project_id": "muhammad-azeem",
+    "storage_bucket": "muhammad-azeem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194187602120:android:0b99ac0c656aec32",
+        "android_client_info": {
+          "package_name": "com.muhammadazeem.redcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194187602120-4t3eeu516bm5iab96p8r9k5d7mk61c5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muhammadazeem.redcare",
+            "certificate_hash": "2b9cc557a3c950c6d6fc3760d65bb53c11a5936c"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbsq_M6dZ8w5-m9UHinrSGNBCK2SJoC6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

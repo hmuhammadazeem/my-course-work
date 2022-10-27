@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/bloodDonorCNIC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Blood Donor CNIC"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/bloodBagGroup"
+        android:layout_below="@id/bloodDonorCNIC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Blood Group" />
+
+    <EditText
+        android:id="@+id/dateOfEntry"
+        android:layout_below="@id/bloodBagGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Date of Entry" />
+
+
+    <Button
+        android:id="@+id/registerBloodBtn"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/dateOfEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
